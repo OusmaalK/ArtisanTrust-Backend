@@ -1,0 +1,21 @@
+# Fichier: requirements.txt
+
+# --- 1. SERVEUR WEB ET DÉPLOIEMENT (BACKEND) ---
+Flask==2.3.3
+python-dotenv==1.0.0
+
+# Serveur de Production (nécessaire pour l'hébergement sur Render/Heroku)
+gunicorn
+
+# Flask-CORS (nécessaire pour la communication entre React et Flask)
+flask-cors
+
+# --- 2. TRAITEMENT ET API (CŒUR DU PROJET) ---
+# Requêtes HTTP (pour l'API Yelp et potentiellement autres)
+requests==2.31.0
+
+# Traitement du Langage Naturel (NLP)
+spacy==3.7.2
+# Le modèle spaCy que vous avez utilisé (à confirmer)
+# IMPORTANT : Le service d'hébergement doit pouvoir télécharger ce modèle
+en_core_web_sm

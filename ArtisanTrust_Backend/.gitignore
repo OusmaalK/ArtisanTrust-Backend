@@ -1,0 +1,12 @@
+# Fichiers et dossiers généraux
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.DS_Store
+.vscode/
+
+# Environnement virtuel (si vous utilisez un venv)
+venv/
+
+# Fichiers de configuration et secrets (NE JAMAIS PARTAGER !)
+.env
