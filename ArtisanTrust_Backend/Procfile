@@ -1,0 +1,1 @@
+web: gunicorn ArtisanTrust_Backend.app:app
